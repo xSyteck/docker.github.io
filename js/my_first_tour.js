@@ -51,7 +51,7 @@ var tour = {
     },
     {
       title: "Reference",
-      content: "Use the <b>Reference</b> tab to go to Docker reference information, such as API, CLI, and commands topics.",
+      content: "Use the <b>Reference</b> tab to get Docker reference information, such as API, CLI, and commands topics.",
       target: "top-nav",
       placement: "bottom",
       width: "570px",
@@ -59,7 +59,7 @@ var tour = {
     },
     {
       title: "Samples",
-      content: "Use the <b>Samples</b> tab to for self-paced tutorials, labs, and sample Docker applications.",
+      content: "Use the <b>Samples</b> tab to find self-paced tutorials, labs, and sample Docker applications.",
       target: "top-nav",
       placement: "bottom",
       width: "570px",
@@ -67,7 +67,7 @@ var tour = {
     },
     {
       title: "Left Navigation",
-      content: "Use the left navigation for a structured view of content within a top-level category.",
+      content: "Use the left navigation as a table of contents (TOC) within a top-level category.",
       target: "left-nav",
       placement: "right",
       yOffset: "100px",
