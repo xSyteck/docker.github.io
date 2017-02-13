@@ -36,7 +36,12 @@ docker/machine release page</a> on GitHub.
       chmod +x /tmp/docker-machine &&
       sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
     ```
-
+    If you are running with **Windows**:
+    
+    ```console
+    $ if ($(Test-Path $home/bin) -eq $False){mkdir $home/bin}; curl https://github.com/docker/machine/releases/download/v0.9.0/docker-machine-Windows-x86_64.exe > "$HOME/bin/docker-machine.exe"
+    ```
+    
     If you are running with **Windows** with git bash:
 
     ```console
